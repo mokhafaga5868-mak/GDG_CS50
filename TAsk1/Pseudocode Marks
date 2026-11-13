@@ -1,0 +1,10 @@
+start 
+  input mark 
+  if mark > 100 or mark < 0 then  
+   output this is not correct 
+  else if mark >= 50 then
+   output pass
+ else 
+   output fail
+ end if 
+end
