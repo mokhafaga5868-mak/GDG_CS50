@@ -1,0 +1,56 @@
+#Pseudocod#
+start 
+ input test 
+for i = 1 to test
+input number 
+for j = 1 to number 
+  input list[j] 
+end for 
+input num_inlist 
+set check = false 
+for k = 1 to number 
+ if num_inlist = list[k] then
+   set check = true 
+end if 
+end for 
+if check = true then 
+ output my number in list 
+else 
+  output my number is not in list 
+end if 
+end for 
+end
+----------------------------
+#Algorithm#
+1- read how many  number of list 
+2- read Exam seat numbers
+3- my exam seat number
+4- set check equal false
+5- for 1 to number of list
+6- if found my exam seat number in element by element exam seat numbers 
+ set check equal true
+8- if check equal true 
+      print i found my seat number 
+9- else 
+     print i not found my seat number
+-------------------------------------------
+#input / output #
+input 
+رقم جلوسي 
+output 
+لو الرقم موجود 
+   موجود
+لو مش موجود 
+  مش موجود  
+------------------------------------------
+#الحالات والقرارات#
+first if we found my seat number => print I found my seat number 
+second if we not found my seat number => print I not found my seat number
+--------------------------------------------
+#Test Cases#
+list = [1233 , 1432 , 1345 , 1245 ]
+input |       expect       |    actual    |  result |
+----------------------------------------------------|
+1233  |      i found       |  i found     |  pass   |
+1678  |       i not found  | i not found  | pass    |
+------------------------------------------------
